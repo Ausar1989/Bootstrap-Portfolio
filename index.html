@@ -1,67 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <title>Jermaine's Portfolio</title>
+  <title>Bootstrap Basic Portfolio</title>
+
+  <!-- Boostrap Stylesheet -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Our own CSS stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
 </head>
 
 <body>
-  <div id="Header">
-    <nav class="navbar navbar-expand-sm" style="background-color: #4aaaa5">
-    <div class="container justify-content-center">
-      <a href="#" class="navbar-brand" style="color: white" text ><h2>Jermaine Lewis</h2></a>
-    </nav>
-    <nav class="navbar navbar-light bg-light" style="background-color: gray">
-      <div class="container justify-content-center">
-      <a class="navbar-brand" href="#" style="color: grey">
-      <a href="index.html">Home</a>
-
-      <a href="portfolio.html">Portfolio</a>
-      
-      <a href="Contact.html"> Contact</a>
-        </a>
-    </div>
-    </nav>
-    </div>
-  </div>  
-   
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12">
-        <div id="main-container" class="container">
-          <section class="main-section">
-            <h1>About Me</h1>
-      
-            <img src="https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-1/p160x160/29510888_2146744948686696_1676755480499860534_n.jpg?_nc_cat=104&_nc_oc=AQkf9f2GuiMjkO3sBwwHq1UP99GqEtRZqwc9DGpMo6RnDepXpEHiGcTS6lJOmIns182OmAX8P-0uO4jDUQfecy4o&_nc_ht=scontent-dfw5-2.xx&oh=fa21ef7911ca88d22d2bf15eb73d06e0&oe=5D887A43" class="auth-image" alt="My Photo">
-      
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum consectetur euismod. Proin commodo purus vitae sollicitudin consectetur.</p>
-      
-            <p>Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam eget, egestas mauris.</p>
-      
-            <p>Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt nunc, sit amet egestas nibh tortor et mi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-      
-          </section>
-      
-        </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <a class="navbar-brand" href="index.html" id="logo">Jermaine Lewis</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+        </ul>
       </div>
+      <!-- /.navbar-collapse -->
     </div>
-  </div>
+    <!-- /.container -->
+  </nav>
+  <!-- End of navbar -->
 
-  <div id="Footer">
-    <nav class="navbar navbar-expand-sm" style="background-color: #666666">
-    <div class="container justify-content-center">
-      <a href="#" class="navbar-brand" style="color: white" text >Copyright &copy;</a>
-    </nav>
+  <!-- Start of container -->
+  <main class="container">
+    <section class="row">
+      <div class="col-md-8">
+        <article class="block">
+          <h1 class="block-header">About Me</h1>
+          <hr />
+          <img src="assets/images/Jermaine.jpg" alt="" id="about-image" />
+          <p>My name is Jermaine and I'm studying to be a software engineer at SMU.
+             I was fascinated with computers since I was a child. this fascination
+             drove me to software engineering.
+          </p>
+          <br />
+          <p>I plan on working for a fortune 500 company in the future, I know I can 
+              do it if I become more competitive. I'm very creative, compassionate, 
+              and grateful. these are qualities I know employers are looking for. This
+              is my resume here ---><a href="assets/Resume_1.pdf">assets/Resume_1.pdf</a> 
+              have 3 projects listed below if you're interested in viewing. Hw-Wireframe, 
+              The Crystal Collector Game(Unit-4-Game), and Lyrical Connection(Project 1).
+              <a href="https://ausar1989.github.io/Hw-Wireframe/">https://ausar1989.github.io/Hw-Wireframe/</a>
+              <a href="https://github.com/Ausar1989/Hw-Wireframe">https://github.com/Ausar1989/Hw-Wireframe</a> 
+              <a href="https://ausar1989.github.io/Unit-4-game/">https://ausar1989.github.io/Unit-4-game/</a>
+              <a href="https://github.com/Ausar1989/Unit-4-game">https://github.com/Ausar1989/Unit-4-game</a>
+              <a href="https://github.com/om289560/project-1">https://github.com/om289560/project-1</a>
+              <a href="https://om289560.github.io/project-1/">https://om289560.github.io/project-1/</a>
+              you want to contact me, all the necessary information is located below.
+              my email address is lewisjermaine22@gmail.com and my phone number is (213) 245-6188. 
+              Here is my Github and linkedin profiles <a href="https://github.com/Ausar1989">https://github.com/Ausar1989</a>
+              <a href="https://www.linkedin.com/in/jermaine-lewis-17915193/">https://www.linkedin.com/in/jermaine-lewis-17915193/</a>
+              
+          </p>
+        </article>
+      </div>
+    </section>
+  </main>
+  <!-- End of container -->
 
-  
+  <!-- Start of footer -->
+  <footer class="footer">
+    <div class="two-toned-footer-color"></div>
+    <p class="text-muted text-muted-footer text-center">
+      &copy; Copyright
+    </p>
+  </footer>
+  <!-- End of footer -->
+
+  <!-- jQuery CDN -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Bootstrap CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
