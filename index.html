@@ -1,97 +1,89 @@
 <!DOCTYPE html>
+
 <html lang="en-us">
-
+	
 <head>
-
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-  <title>Bootstrap Basic Portfolio</title>
-
-  <!-- Boostrap Stylesheet -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
-  <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About | Jermaine Lewis</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <a class="navbar-brand" href="index.html" id="logo">Jermaine Lewis</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+
+<nav class="navbar navbar-default" id="masthead">
+	<div class="container">
+  	<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
+    	<a class="navbar-brand" href="#" id="logo">Jermaine Lewis</a>
+  	</div>
+  	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav  navbar-right" id="navbar-links">
+        <li><a href="index.html" id="no-border-about">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    	</ul>
     </div>
-    <!-- /.container -->
-  </nav>
-  <!-- End of navbar -->
+  </div>
+</div>
+</nav>
 
-  <!-- Start of container -->
-  <main class="container">
-    <section class="row">
-      <div class="col-md-8">
-        <article class="block">
-          <h1 class="block-header">About Me</h1>
-          <hr />
-          <img src="assets/images/Jermaine.jpg" alt="" id="about-image" />
-          <p>My name is Jermaine and I'm studying to be a software engineer at SMU.
-             I was fascinated with computers since I was a child. this fascination
-             drove me to software engineering.
-          </p>
-          <br />
-          <p>I plan on working for a fortune 500 company in the future, I know I can 
-              do it if I become more competitive. I'm very creative, compassionate, 
-              and grateful. these are qualities I know employers are looking for. This
-              is my resume here ---><a href="assets/Resume_1.pdf">assets/Resume_1.pdf</a> 
-              If you are interested in viewing, some of my applications, just go 
-              to the portfolio section; located at the top right of the navbar.
-              If you want to contact me, all the necessary information is located below.
-              my email address is lewisjermaine22@gmail.com and my phone number is (213) 245-6188. 
-              Here is my Github and linkedin profiles <a href="https://github.com/Ausar1989">https://github.com/Ausar1989</a>
-              <a href="https://www.linkedin.com/in/jermaine-lewis-17915193/">https://www.linkedin.com/in/jermaine-lewis-17915193/</a>
-              
-          </p>
-        </article>
-      </div>
-    </section>
-  </main>
-  <!-- End of container -->
+ <div class="container">
 
-  <!-- Start of footer -->
-  <footer class="footer">
-    <div class="two-toned-footer-color"></div>
-    <p class="text-muted text-muted-footer text-center">
-      &copy; Copyright
-    </p>
-  </footer>
-  <!-- End of footer -->
+	<div class="row">
+		<div class="col-md-8 main-section">
+    	<h1>About Me</h1>
+			<div class="row">
+		    <img class="pull-left img-responsive" id="profile-photo" src="assets/images/Jermaine.jpg" alt="Jermaine profile photo">
+        <p>My name is Jermaine and I'm studying to be a software engineer at SMU.
+          I was fascinated with computers since I was a child. this fascination
+          drove me to software engineering.
+       </p>
+       <br />
+       <p>I plan on working for a fortune 500 company in the future, I know I can 
+           do it because competitive. I'm very creative, compassionate, 
+           and grateful. these are qualities I know employers are looking for. This
+           is my resume here ---><a href="assets/Resume_1.pdf">assets/Resume_1.pdf</a> 
+           If you are interested in viewing, some of my applications, just go 
+           to the portfolio section; located at the top right of the navbar.
+           If you want to contact me, all the necessary information is located below.
+           my email address is lewisjermaine22@gmail.com and my phone number is (213) 245-6188. 
+           Here is my Github and linkedin profiles <a href="https://github.com/Ausar1989">https://github.com/Ausar1989</a>
+           <a href="https://www.linkedin.com/in/jermaine-lewis-17915193/">https://www.linkedin.com/in/jermaine-lewis-17915193/</a>
+       </p>
+			</div>
+		</div>
 
-  <!-- jQuery CDN -->
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<div class="col-md-3 col-md-offset-1 sidebar">
+			<h2>Connect with Me</h2>
+		
+			<a href="https://github.com/Ausar1989"><img class="social img-responsive" src="assets/images/github.png" alt="GitHub"></a> 
+			<a href="https://www.linkedin.com/in/jermaine-lewis-17915193/"><img class="social img-responsive" src="assets/images/linkedin.png" alt="LinkedIn"></a>
+			
+		</div>
+	</div>
 
-  <!-- Bootstrap CDN -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</div>
 
+<!-- Make footer container fluid so it goes across the screen -->
+
+<div class="container-fluid footer-section">
+	<div class="row">
+		<p>&copy; Copyright 2019 Jermaine Lewis</p>
+	</div>
+</div>
+
+   
+<!-- Scripts needed for Bootstrap collapsing navbar -->
+ 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
 </body>
-
 </html>
