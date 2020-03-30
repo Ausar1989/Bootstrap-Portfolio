@@ -1,6 +1,6 @@
 /* --- STYLES FOR ALL PAGES --- */
 body {
-  background: url(../images/samurai.jpg) no-repeat center center fixed; 
+  background: url(../images/spinspace.gif) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -25,7 +25,7 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: black;
 }
 
 h1 {
@@ -34,6 +34,7 @@ h1 {
   line-height: 49px;
   border-bottom: 3px solid #ddd;
 }
+
 
 h2,
 h3 {
@@ -44,7 +45,7 @@ h3 {
 
 #masthead {
   color: #fff;
-  background: #fff;
+  background: black;
   border-bottom: 2px solid #ccc;
 }
 
@@ -63,7 +64,7 @@ h3 {
 
 .navbar-default .navbar-brand {
   color: #fff;
-  background: #4aaaa5;
+  background: rgb(18, 18, 161);
 }
 
 #navbar-links a {
@@ -88,8 +89,8 @@ h3 {
   color: #fff;
   color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: black;
+  border-top: 8px solid rgb(18, 18, 161);
 }
 
 /* sidebar */
@@ -155,7 +156,7 @@ h3,
   width:100%;
   bottom: 10px;
   position: absolute;
-  background: #4aaaa5;
+  background: rgb(18, 18, 161);
 }
 
 .thumbnail {
@@ -208,7 +209,7 @@ input[type=submit] {
 }
 
 #submit-button {
-  background-color: #4aaaa5;
+  background-color: black;
   font-size: 16px;
   color: #ffffff;
   padding-top: 10px;
